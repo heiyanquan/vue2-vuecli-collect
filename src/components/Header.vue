@@ -1,22 +1,16 @@
 <template>
-  <div class="header">
-    header
-  </div>
+  <div class="header">header</div>
 </template>
 
 <script>
 export default {
   name: 'Header',
   data() {
-    return {
-    }
+    return {}
   },
-  mounted() {
-  },
-  methods: {
-  }
+  mounted() {},
+  methods: {}
 }
 </script>
 
-<style lang="less" scoped>
-</style>
+<style lang="less" scoped></style>

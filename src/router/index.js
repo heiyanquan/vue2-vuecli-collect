@@ -24,7 +24,7 @@ const routes = [
       {
         path: 'module_id',
         component: () => import('views/module_id')
-      },
+      }
     ]
   }
 ]

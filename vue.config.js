@@ -11,7 +11,7 @@ module.exports = {
       new Webpack.ProvidePlugin({
         echarts: 'echarts',
         XLSX: 'xlsx'
-      }),
+      })
     ],
     externals: {
       './cptable': 'var cptable'

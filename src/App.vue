@@ -6,10 +6,8 @@ export default {
   data() {
     return {}
   },
-  created() {
-  },
-  methods: {
-  }
+  created() {},
+  methods: {}
 }
 </script>
 <style></style>

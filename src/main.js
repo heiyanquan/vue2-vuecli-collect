@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueCompositionAPI from '@vue/composition-api'
-import ViewUI, { Message } from 'view-design'
+import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 import router from './router'
 import App from './App'

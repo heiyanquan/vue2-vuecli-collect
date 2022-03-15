@@ -1,24 +1,17 @@
 <template>
-  <div class="home_wrapper">
-    home
-  </div>
+  <div class="home_wrapper">home</div>
 </template>
 
 <script>
 export default {
   name: 'home',
-  components: {
-  },
+  components: {},
   data() {
-    return {
-    }
+    return {}
   },
-  mounted() {
-  },
-  methods: {
-  }
+  mounted() {},
+  methods: {}
 }
 </script>
 
-<style lang="less" scoped>
-</style>
+<style lang="less" scoped></style>

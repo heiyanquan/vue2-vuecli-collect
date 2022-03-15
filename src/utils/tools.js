@@ -68,4 +68,3 @@ function addNumPrefix(num) {
   }
   return num
 }
-
