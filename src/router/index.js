@@ -5,7 +5,6 @@ Vue.use(VueRouter)
 
 // 首页
 const homeComponent = () => import('@/views/home/index')
-
 const FrameLayout = () => import('@/views/frameLayout')
 
 const routes = [
@@ -13,17 +12,25 @@ const routes = [
     path: '/',
     name: 'FrameLayout',
     component: FrameLayout,
-    redirect: '/home',
     children: [
-      // 首页
       {
         path: '/home',
         name: 'home',
         component: homeComponent
       },
       {
+        path: '/vnodeOptimize',
+        name: 'vnodeOptimize',
+        component: () => import('@/views/vnodeOptimize/vnodeOptimize')
+      },
+      {
+        path: '/vnodeNormal',
+        name: 'vnodeNormal',
+        component: () => import('@/views/vnodeOptimize/normal')
+      },
+      {
         path: 'module_id',
-        component: () => import('views/module_id')
+        component: () => import('@/views/module_id')
       }
     ]
   }

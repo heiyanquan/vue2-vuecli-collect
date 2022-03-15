@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueCompositionAPI from '@vue/composition-api'
-import ViewUI from 'view-design'
-import 'view-design/dist/styles/iview.css'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 import router from './router'
 import App from './App'
 import store from './store'
 
 Vue.use(VueCompositionAPI)
-Vue.use(ViewUI)
+Vue.use(ElementUI)
 Vue.config.productionTip = false
 Vue.config.devtools = true
 

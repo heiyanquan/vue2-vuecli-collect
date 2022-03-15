@@ -1,16 +1,16 @@
 <template>
   <div class="frame-layout-box">
-    <Header></Header>
+    <NavView></NavView>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
+import NavView from '@/components/nav'
 
 export default {
   name: 'FrameLayout',
-  components: { Header },
+  components: { NavView },
   data() {
     return {}
   }
