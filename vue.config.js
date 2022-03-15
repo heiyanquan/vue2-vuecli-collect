@@ -28,7 +28,18 @@ module.exports = {
       .set('router', resolve('./src/router'))
       .set('store', resolve('./src/store'))
       .set('static', resolve('./public/static'))
+    config.module
+      .rule('worker')
+      .test(/\.worker\.js$/)
+      .use('worker-loader')
+      .loader('worker-loader')
+      .options({
+        inline: 'fallback'
+      })
+      .end()
   },
+  // 解决打包的时报错
+  parallel: false,
   css: {
     loaderOptions: {
       less: {

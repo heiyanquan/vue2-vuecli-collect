@@ -13,7 +13,8 @@ export default {
       navList: [
         { label: 'home', path: '/home' },
         { label: 'vnodeOptimize', path: '/vnodeOptimize' },
-        { label: 'vnodeNormal', path: '/vnodeNormal' }
+        { label: 'vnodeNormal', path: '/vnodeNormal' },
+        { label: 'worker', path: '/worker' }
       ],
       colorList: [
         '#46A0FF',

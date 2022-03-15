@@ -29,6 +29,10 @@ const routes = [
         component: () => import('@/views/vnodeOptimize/normal')
       },
       {
+        path: 'worker',
+        component: () => import('@/views/worker/worker')
+      },
+      {
         path: 'module_id',
         component: () => import('@/views/module_id')
       }
