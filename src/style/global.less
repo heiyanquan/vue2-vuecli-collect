@@ -1,0 +1,27 @@
+.amap-logo,
+.amap-copyright {
+  display: none !important;
+}
+
+// 通用滚动条
+* {
+  .global_scrollbar_style();
+}
+
+.global_scrollbar_style() {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 0px;
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(225, 228, 230, 1);
+    border-radius: 0px;
+    width: 6px;
+    cursor: pointer;
+  }
+}
