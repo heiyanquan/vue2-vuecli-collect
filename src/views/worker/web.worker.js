@@ -18,12 +18,15 @@ async function exportExcel() {
   })
 }
 
-self.onmessage = (e) => {
+// eslint-disable-next-line no-restricted-globals
+self.onmessage = () => {
+  console.log(11)
   exportExcel().then((res) => {
     postMessage(res.list)
   })
 }
 
+// eslint-disable-next-line no-restricted-globals
 self.addEventListener('message', (e) => {
   console.log(33, e.data)
 })

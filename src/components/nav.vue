@@ -12,8 +12,8 @@ export default {
     return {
       navList: [
         { label: 'home', path: '/home' },
-        { label: 'vnodeOptimize', path: '/vnodeOptimize' },
-        { label: 'vnodeNormal', path: '/vnodeNormal' },
+        { label: '虚拟dom优化', path: '/vnodeOptimize' },
+        { label: '虚拟dom不优化', path: '/vnodeNormal' },
         { label: 'worker', path: '/worker' },
         { label: '最长递增子序列', path: '/longest' }
       ],

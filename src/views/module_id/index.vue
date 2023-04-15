@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import { ref } from '@vue/composition-api'
+import { ref } from 'vue'
 import { inxGeneral, inxGeneralDetail } from '@/api/index'
 
 export default {
