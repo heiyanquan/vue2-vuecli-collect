@@ -24,6 +24,6 @@ self.onmessage = (e) => {
   })
 }
 
-self.addEventListener("message", (e) => {
-  console.log(33, e.data);
-});
+self.addEventListener('message', (e) => {
+  console.log(33, e.data)
+})

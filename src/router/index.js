@@ -35,6 +35,10 @@ const routes = [
       {
         path: 'module_id',
         component: () => import('@/views/module_id')
+      },
+      {
+        path: 'longest',
+        component: () => import('@/views/longest-increasing-subsequence/index')
       }
     ]
   }

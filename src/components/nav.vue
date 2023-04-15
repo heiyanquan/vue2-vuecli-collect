@@ -14,7 +14,8 @@ export default {
         { label: 'home', path: '/home' },
         { label: 'vnodeOptimize', path: '/vnodeOptimize' },
         { label: 'vnodeNormal', path: '/vnodeNormal' },
-        { label: 'worker', path: '/worker' }
+        { label: 'worker', path: '/worker' },
+        { label: '最长递增子序列', path: '/longest' }
       ],
       colorList: [
         '#46A0FF',
